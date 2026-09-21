@@ -1,0 +1,12 @@
+2026-09-21 23:42:15,693 - INFO - Starting task: Clean Temp Files
+2026-09-21 23:42:15,693 - INFO - Task Clean Temp Files completed successfully.
+2026-09-21 23:42:15,693 - INFO - Starting task: Sync Data
+2026-09-21 23:42:15,693 - ERROR - Error occurred while performing task Sync Data: Unable to connect to server
+2026-09-21 23:42:15,695 - ERROR - Traceback (most recent call last):
+  File "c:\ManjeetPractice\Manjeet_Sept_Practice_2026\Python\Automations_Script_Practice\src\automation_demo\demo_script.py", line 20, in perform_task
+    result = function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\ManjeetPractice\Manjeet_Sept_Practice_2026\Python\Automations_Script_Practice\src\automation_demo\demo_script.py", line 38, in sync_data
+    raise ConnectionError("Unable to connect to server")
+ConnectionError: Unable to connect to server
+
